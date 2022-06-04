@@ -122,13 +122,22 @@
                 <ul class="img-list list">
                     <li class="are-doing-item item"> 
                         <img class="img" src="./images/img1.jpg" alt="Фото с ноутбуком" width="370" height="294">
-                    <p class="are-doing-text">Десктопные приложения</p>
+                        <div class="are-doing-overlay">
+                            <p class="are-doing-text">Десктопные приложения</p>
+                        </div>
+                   
                     </li>
                     <li class="are-doing-item item"> <img class="img" src="./images/img2.jpg" alt="Фото с телефоном" width="370" height="294">
+                        <div class="are-doing-overlay">
+                            <p class="are-doing-text">Мобильные приложения</p>  
+                        </div>
                         <p class="are-doing-text">Мобильные приложения</p>
                     </li>
                     <li class="are-doing-item item"> <img class="img" src="./images/img3.jpg" alt="Фото с планшетом" width="370" height="294">
-                        <p class="are-doing-text">Дизайнерские решения</p>
+                        <div class="are-doing-overlay">
+                            <p class="are-doing-text">Дизайнерские решения</p>
+                        </div>
+                        
                     </li>
                 </ul>   
             </div>
@@ -426,7 +435,11 @@
     <div class="modal">
 
         <p></p>
-        <button class="modal-btn" data-modal-close></button>
+        <button class="modal-btn" type="button" data-modal-close>
+             <svg class="modal-icon" width="30" height="30">
+                <use href="./images/sptite.svg#icon-close"></use>
+            </svg> 
+        </button>
     </div>
    </div>
                 
